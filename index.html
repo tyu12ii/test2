@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اكتشف أفضل الألعاب والتطبيقات | GameZone</title>
+  <meta name="description" content="اكتشف مجموعة مختارة من أفضل الألعاب والتطبيقات مع مكافآت وهدايا حصرية. تصفّح، جرّب، واستمتع!">
+
+  <!-- Canonical URL — replace example.com with your actual domain -->
+  <link rel="canonical" href="https://www.example.com/">
+
+  <!-- Hreflang tags -->
+  <link rel="alternate" hreflang="ar" href="https://www.example.com/">
+  <link rel="alternate" hreflang="x-default" href="https://www.example.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:title" content="اكتشف أفضل الألعاب والتطبيقات | GameZone">
+  <meta property="og:description" content="اكتشف مجموعة مختارة من أفضل الألعاب والتطبيقات مع مكافآت وهدايا حصرية.">
+  <meta property="og:image" content="https://www.example.com/assets/og-image.png">
+  <meta property="og:url" content="https://www.example.com/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="اكتشف أفضل الألعاب والتطبيقات | GameZone">
+  <meta name="twitter:description" content="اكتشف مجموعة مختارة من أفضل الألعاب والتطبيقات مع مكافآت وهدايا حصرية.">
+  <meta name="twitter:image" content="https://www.example.com/assets/og-image.png">
+
+  <!-- Favicon placeholder — replace with your actual favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">🎮 GameZone</a>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main class="container main-content">
+
+    <!-- Hero heading with target keywords -->
+    <h1 class="hero-title">اكتشف أفضل الألعاب والتطبيقات</h1>
+    <p class="hero-subtitle">تصفّح مجموعة مختارة من الألعاب والتطبيقات المميزة مع مكافآت وهدايا حصرية</p>
+
+    <!-- Search bar -->
+    <div class="search-wrapper">
+      <input
+        type="search"
+        id="searchInput"
+        class="search-input"
+        placeholder="ابحث عن لعبة أو تطبيق..."
+        autocomplete="off"
+      >
+      <!-- Magnifying glass icon (inline SVG so no external dependency) -->
+      <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </div>
+
+    <!-- Category filter buttons -->
+    <div class="filter-buttons" role="group" aria-label="تصفية حسب الفئة">
+      <button class="filter-btn active" data-filter="all">الكل</button>
+      <button class="filter-btn" data-filter="game">ألعاب</button>
+      <button class="filter-btn" data-filter="app">تطبيقات</button>
+    </div>
+
+    <!-- Card grid — populated by JavaScript -->
+    <div id="cardGrid" class="card-grid"></div>
+
+    <!-- No results message — hidden by default -->
+    <div id="noResults" class="no-results" style="display: none;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="no-results-icon">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        <line x1="8" y1="8" x2="14" y2="14"></line>
+        <line x1="14" y1="8" x2="8" y2="14"></line>
+      </svg>
+      <p>لا توجد نتائج</p>
+      <p class="no-results-hint">جرّب البحث بكلمات مختلفة</p>
+    </div>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-links">
+        <a href="/about/">من نحن</a>
+        <a href="/privacy/">سياسة الخصوصية</a>
+        <a href="/terms/">الشروط والأحكام</a>
+        <a href="/contact/">اتصل بنا</a>
+      </div>
+      <p class="copyright">© 2025 GameZone. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <!-- Main script — loads data.json and handles all interactivity -->
+  <script src="script.js"></script>
+
+</body>
+</html>
