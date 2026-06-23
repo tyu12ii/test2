@@ -1,0 +1,62 @@
+[
+  {
+    "id": "puzzle-gems",
+    "category": "game",
+    "title": "ألغاز الجواهر",
+    "description": "لعبة ألغاز ممتعة تتحدى ذكاءك بمراحل متعددة ومكافآت يومية.",
+    "reward_hook": "احصل على 10,000 جوهرة مجاناً",
+    "image": "assets/puzzle-gems.png",
+    "url": "/games/puzzle-gems/",
+    "date_added": "2025-01-15"
+  },
+  {
+    "id": "lucky-slots",
+    "category": "game",
+    "title": "سلوتس الحظ",
+    "description": "جرّب حظك في أفضل لعبة سلوتس مع جوائز ضخمة كل يوم.",
+    "reward_hook": "500 لفّة مجانية عند التسجيل",
+    "image": "assets/lucky-slots.png",
+    "url": "/games/lucky-slots/",
+    "date_added": "2025-02-10"
+  },
+  {
+    "id": "speed-racer",
+    "category": "game",
+    "title": "سباق السرعة",
+    "description": "لعبة سباقات سيارات مثيرة بمسارات متنوعة ورسوميات عالية الجودة.",
+    "reward_hook": "",
+    "image": "assets/speed-racer.png",
+    "url": "/games/speed-racer/",
+    "date_added": "2025-03-05"
+  },
+  {
+    "id": "photo-studio",
+    "category": "app",
+    "title": "استوديو الصور",
+    "description": "تطبيق تعديل صور احترافي بفلاتر متقدمة وأدوات سهلة الاستخدام.",
+    "reward_hook": "اشتراك مجاني لمدة شهر",
+    "image": "assets/photo-studio.png",
+    "url": "/apps/photo-studio/",
+    "date_added": "2025-01-20"
+  },
+  {
+    "id": "secure-vpn",
+    "category": "app",
+    "title": "في بي إن آمن",
+    "description": "تصفّح الإنترنت بأمان وخصوصية مع سيرفرات سريعة حول العالم.",
+    "reward_hook": "",
+    "image": "assets/secure-vpn.png",
+    "url": "/apps/secure-vpn/",
+    "date_added": "2025-02-28"
+  },
+  {
+    "id": "music-wave",
+    "category": "app",
+    "title": "موجة الموسيقى",
+    "description": "استمع لملايين الأغاني بجودة عالية مع قوائم تشغيل مخصصة لك.",
+    "reward_hook": "3 أشهر مجانية للمستخدمين الجدد",
+    "image": "assets/music-wave.png",
+    "url": "/apps/music-wave/",
+    "date_added": "2025-03-15"
+  }
+]
